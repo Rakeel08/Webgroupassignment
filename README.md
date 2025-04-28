@@ -1,40 +1,45 @@
-Web Development Group
+UI Portfolio Website
+A modern, responsive portfolio website template for UI/UX designers and web developers.
+Features
 
-Heads up!
-One assignment submission is allowed per group.
-📜 Rules & Guidelines
-Challenges must be tackled in assigned or self-formed groups (2–5 members).
+Responsive design that works on all devices
+Clean, professional UI with interactive elements
+Animated counters and smooth scrolling
+Optimized for performance and cross-browser compatibility
 
-Everyone must contribute—collaboration is a key part of the learning.
+Quick Start
 
-Use only the technologies covered during the week, unless specified otherwise.
+Download or clone the repository
+Open index.html in your browser
+Replace placeholder content with your information
 
-Keep your code clean, well-commented, and pushed to GitHub (one repo per group).
+Customization
 
-Each group should include a brief README explaining the solution approach.
+Update personal details in HTML
+Replace images in the /assets folder
+Modify colors in the CSS file
 
-📤 Submission
-Submit your GitHub repo link via the provided Google Form (shared every Monday).
+Tech Stack
 
-Include names of all group members in the README and submission form.
+HTML5
+CSS3 (flexbox & grid)
+Vanilla JavaScript
+Font Awesome icons
 
-🧪 Evaluation Criteria (Rubric)
+Sections
 
-Criteria	Weight
-Functionality & Requirements Met	30%
-Code Quality & Structure	20%
-UI/UX & Responsiveness	20%
-Collaboration & Teamwork	10%
-Creativity / Extra Features	10%
-Presentation (README, demo, etc)	10%
-👥 Participation
-Mandatory for all learners.
+Hero
+About
+Services
+Skills
+Portfolio
+Statistics
+Brands/Clients
+Footer
 
-Individual contribution is considered during evaluations.
+Collaborators
 
-Consistent participation earns bonus points and recognition.
+Edwin Maina - mainaedwin716@gmail.com
+Rachel
+Sam
 
-
-
-Recreate the above portfolio website as is using HTML and CSS.
-Feel free to use bootstrap library
