@@ -40,6 +40,8 @@ Footer
 # Collaborators
 
 Edwin Maina - mainaedwin716@gmail.com
-Rachel
-Sam
+
+Rachel -
+
+Sam -
 
