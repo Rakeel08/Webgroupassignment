@@ -1,0 +1,176 @@
+/* RESET */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Open Sans',sans-serif; color:#333; line-height:1.6; }
+a { text-decoration:none; color:inherit; }
+ul { list-style:none; }
+
+/* UTILITIES */
+.container { max-width:1200px; margin:0 auto; padding:0 20px; }
+.section { padding:80px 0; }
+.btn { display:inline-block; padding:10px 25px; background:#10d1ce; color:#fff; border-radius:4px; font-weight:600; }
+.btn-outline { background:transparent; border:2px solid #28f0ed; color:#28f0df; }
+.btn + .btn { margin-left:10px; }
+
+/* HEADER */
+header { position:fixed; top:0; width:100%; background:transparent; box-shadow:0 2px 5px transparent; z-index:100;}
+header .container { display:flex; align-items:center; justify-content:space-between; height:70px; }
+.logo { font-size:24px; font-weight:700; }
+.menu { display:flex; gap:20px; }
+.menu li { position:relative; }
+.menu a { font-weight:600; padding:5px; color: black; }
+.has-sub:hover .sub-menu { display: block; }
+.sub-menu { display:none; position:absolute; top:100%; left:0; background:aqua; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+.sub-menu li { white-space:nowrap; }
+.sub-menu a { display:block; padding:10px 15px; }
+
+/* HERO */
+.hero { height:100vh; background:url('WhatsApp Image 2025-04-28 at 19.32.36.jpeg') center/cover no-repeat; display:flex; align-items:center; text-align:center; color:white; }
+.hero-content { width:100%; }
+.hero h1 { font-size:48px; margin-bottom:10px; font-family: 'Times New Roman', Times, serif;}
+.hero p { font-size:20px; margin-bottom:20px; font-family: 'Times New Roman', Times, serif;}
+.btn-group { margin-top:20px; }
+
+
+/* ABOUT */
+.about-flex { display:flex; align-items:center; gap:40px; flex-wrap:wrap; }
+.about-text { flex:1 1 400px; }
+.about-text h2 { font-size:32px; margin-bottom:15px; }
+.bio-list li { margin:8px 0; }
+.social { margin:15px 0; }
+.social a { margin-right:10px; font-size:20px; }
+.about-img img { max-width:100%; border-radius:8px; }
+
+/* SERVICES */
+.services .section-title { text-align:center; margin-bottom:40px; font-size:32px; }
+.services-grid { display:flex; gap:30px; flex-wrap:wrap; }
+.service { flex:1 1 250px; text-align:center; padding:20px; border:1px solid #eee; border-radius:8px; }
+.service i { font-size:36px; color:#28f0df; margin-bottom:15px; }
+.service h3 { margin-bottom:10px; }
+
+.skills {
+    background: #f9f9f9;
+    padding: 80px 0;
+  }
+  .skills .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .skills .section-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+  }
+  .skill-item {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .skill-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
+  .skill-item i {
+    font-size: 2rem;
+    color: #23eff6;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .skill-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  .progress {
+    background: #e0e0e0;
+    border-radius: 25px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    background-color: #28f0e9;
+    border-radius: 25px 0 0 25px;
+    transition: width 1.2s ease-in-out;
+  }
+  
+
+/* STATS */
+.stats-grid { display:flex; gap:20px; justify-content:space-around; text-align:center; flex-wrap:wrap; }
+.stat h3 { font-size:36px; color:#141515; margin-bottom:5px; }
+
+/* PORTFOLIO */
+.portfolio .section-title { text-align:center; margin-bottom:40px; font-size:32px; }
+.portfolio-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.proj { position:relative; overflow:hidden; border-radius:8px; }
+.proj img { width:100%; display:block; transition:transform .3s ease; }
+.proj:hover img { transform:scale(1.1); }
+.overlay { position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,0.6); color:#fff; padding:20px; transform:translateY(100%); transition:transform .3s ease; }
+.proj:hover .overlay { transform:translateY(0); }
+
+/* FOOTER */
+footer { background:#333; color:#fff; }
+.footer-flex { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:40px 20px; }
+.footer-flex h4 { margin-bottom:15px; }
+.footer-flex a { color:#28f0dc; }
+.brands img { height:40px; margin-right:15px; }
+.footer-bottom { background:#222; text-align:center; padding:15px 0; font-size:14px; }
+.footer-bottom span { color:#28e6f0; }
+
+
+
+
+/* Container hides overflow */
+.brand-logos {
+    overflow: hidden;
+    background-color: aqua;
+    padding: 20px 0;
+  }
+  
+  /* Inner track: flex row, infinite scroll */
+  .brand-logos .logo-track {
+    display: flex;
+    /* ensure the track is at least twice as wide as the viewport */
+    width: max-content;
+    animation: scroll-logotrack 20s linear infinite;
+  }
+  
+  /* Logo items */
+  .brand-logos .logo-track a {
+    flex: 0 0 auto;
+    margin: 0 0px;
+  }
+  
+  .brand-logos .logo-track img {
+    max-height: 100px;
+    width: auto;
+    display: block;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .brand-logos .logo-track a:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  /* Keyframes: move from 0 to –50% of the track */
+  @keyframes scroll-logotrack {
+    from   { transform: translateX(0); }
+    to     { transform: translateX(-50%); }
+  }
+  
+  
