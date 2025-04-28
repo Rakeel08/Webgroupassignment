@@ -23,8 +23,8 @@ Modify colors in the CSS file
 
 HTML5
 CSS3 (flexbox & grid)
-Vanilla JavaScript
-Font Awesome icons
+JavaScript
+
 
 # Sections
 
