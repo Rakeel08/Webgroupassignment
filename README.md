@@ -1,32 +1,32 @@
-UI Portfolio Website
+## UI Portfolio Website
 A modern, responsive portfolio website template for UI/UX designers and web developers.
-Features
+# Features
 
 Responsive design that works on all devices
 Clean, professional UI with interactive elements
 Animated counters and smooth scrolling
 Optimized for performance and cross-browser compatibility
 
-Quick Start
+# Quick Start
 
 Download or clone the repository
 Open index.html in your browser
 Replace placeholder content with your information
 
-Customization
+# Customization
 
 Update personal details in HTML
 Replace images in the /assets folder
 Modify colors in the CSS file
 
-Tech Stack
+# Tech Stack
 
 HTML5
 CSS3 (flexbox & grid)
 Vanilla JavaScript
 Font Awesome icons
 
-Sections
+# Sections
 
 Hero
 About
@@ -37,7 +37,7 @@ Statistics
 Brands/Clients
 Footer
 
-Collaborators
+# Collaborators
 
 Edwin Maina - mainaedwin716@gmail.com
 Rachel
